@@ -1,0 +1,355 @@
+@font-face {
+    font-family: yekan;
+    src: url("fonts/iranyekanwebboldfanum.ttf");
+}
+body,h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, span, .popover, p, input{
+    font-family: yekan, roboto, serif !important;
+    letter-spacing: 0 !important;
+    font-weight: 500;
+    direction: rtl;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(10, 102, 10);
+}
+.menu li{
+    list-style: none;
+}
+.menu{
+    width: 100%;
+    border-radius: 15px;
+}
+.menu-member{
+    flex-direction: column;
+    gap: 20px;
+}
+.menu-member{
+    padding: 30px;
+}
+.box-photo{
+    margin-top: 56px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(39, 164, 39);
+}
+.btn{
+    width: 80px;
+}
+.box-agahi{
+    width: 75%;
+    border: 1px solid #198754;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+.photo-agahi{
+    width: 180px;
+    height: 160px;
+    
+}
+.photo-agahi img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.photo-box{
+    align-items: center;
+    justify-content: center;
+}
+.information p:nth-of-type(4){
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.information p span{
+    font-size: 15px;
+    color: rgb(112, 112, 112);
+    font-weight: 300;
+    line-height: 1.35;
+}
+.mablagh{
+    color: #0a660a !important;
+    font-size: 21px !important;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.address{
+    font-size: 15px;
+    color: rgb(53, 50, 50);
+}
+.box-agahi:hover{
+  box-shadow:0 0.5rem 1rem rgba(0,0,0,.15);
+}
+.address svg{
+    vertical-align: -3.3
+}
+.page-number{
+    width: 70%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.page-number a{
+    color: #0a660a;
+    border: 0.5px solid #0a660a;
+}
+.page-number a:hover{
+    color: #0a660a;
+    border: 0.5px solid #0a660a;
+}
+
+@media (max-width:1199px){
+    .box-agahi{
+        width: 90%;
+    }
+    .page-number{
+        width: 90%;
+    }
+} 
+@media(max-width:991px){
+    .box-agahi{
+        width: 100%;
+    }
+    .page-number{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:521px){
+   .photo-box{
+        min-width: 170px;
+   }
+   .text{
+    width: calc(100% - 170px);
+   }
+}
+@media(max-width:460px){
+    .row-agahi{
+        flex-direction: column;
+    }
+    .photo-box{
+        order:1;
+        width:100%;
+        justify-content: center;
+    }
+    .text{
+        margin-top:1rem;
+        order: 2;
+        width: 100%;
+    }
+    .photo-agahi{
+        width:160px;
+    }
+    .agahiha{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+.address{
+    margin-bottom: 0;
+}
+@media (max-width: 767px){
+   .box-detail p, .address p , .price p{
+    font-size: 14px !important;
+     }
+     .box-detail h5{
+        font-size: 17px;
+     }
+}
+.navbar{
+    border-radius: 15px;
+}
+@media (max-width:768px){
+    .menu-member{
+        padding: 20px 3px 10px;
+        margin-bottom: 0;
+    }
+}
+.img-banner{
+    height: 338px;
+    border-radius: 15px;
+}
+.img-banner .carousel-item img{
+    object-position: bottom;
+
+}
+.search-box{
+    width: 300px;
+    height: 53px;
+    background-color: #0a660a;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+    margin-top: -29px;
+    color: #ffff;
+    gap: 10px;
+}
+.box-fre{
+    gap: 50px;
+}
+.box-information h5{
+   align-items: center;
+   color: #0a660a;
+}
+.box-information{
+    border-radius: 15px;
+    gap: 15px;
+}
+.box-icon{
+    width: 60px;
+    height: 60px;
+    background: #eee;
+    border-radius: 30px;
+    margin-left: 10px;
+    float: right;
+    padding: 10px;
+}
+.box{
+    height: 80px;
+    align-items: center;
+}
+.footer{
+    background-color: #eee;
+}
+.footer-img{
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-top-1699578703 svg{
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 80px;
+    transform: rotateY(180deg);
+}
+.custom-shape-divider-top-1699578703, .custom-shape-divider-top-1699579392{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1699579392 svg{
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 84px;
+    transform: rotateY(180deg);
+}
+@media(min-width:1400px){
+    .footer-img img{
+        max-width: 160px;
+    }
+}
+@media (max-width:1246px){
+    .footer-img img{
+        max-width: 150px;
+    }
+}
+@media(max-width:1211px){
+    .footer-img img{
+        max-width: 140px;
+    }
+}
+@media(max-width:1024px){
+    .footer-img img{
+        max-width: 130px;
+    }
+}
+@media(max-width:1004px){
+    .footer-img img{
+        max-width: 120px;
+    }
+}
+@media(max-width:1036px){
+    .footer p{
+        font-size: 14px;
+    }
+    .footer h4{
+        font-size: 20px;
+    }
+}
+@media(max-width:991px){
+    .footer-img img{
+        max-width: 150px;
+    }
+}
+@media(max-width:820px){
+   .footer-img img{
+    max-width: 120px;
+   }
+}
+@media(max-width:597px){
+    .footer-img img{
+     max-width: 100px;
+    }
+ }
+ @media(max-width:768px){
+    .social-media img{
+        max-width: 25px;
+        max-height: 25px;
+    }
+ }
+@media(max-width:578px){
+    .box-information h5{
+        font-size: 15px;
+    }
+}
+.box-detail{
+    border: 1px solid#0a660a;
+    border-radius: 15px;
+}
+.text-gray-400 {
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175/var(--tw-text-opacity));
+}
+.text-14 {
+    font-size: 14px;
+}
+.tozihat{
+    width: 180px;
+}
+.price p{
+    font-size: 15px;
+}
+hr{
+    color: #0a660a;
+}
+@media(max-width:1199px){
+    .main-info{
+        font-size: 15px;
+    }
+}
+.tozihat small{
+    line-height: 26px;
+}
+.date{
+    font-size: 14px;
+}
+.address{
+    border: 1px solid#0a660a;
+    border-radius: 15px;
+}
+@media(min-width:576px){
+    .price .row{
+        gap:8px;
+    }
+}
+@media(max-width:460px){
+    .box-detail p , .address p, .box-detail small{
+        font-size: 12px !important;
+    }
+}
+@media(max-width:425px){
+    .price-span{
+        flex-direction: column;
+        gap: 8px;
+    }
+}
